@@ -1,0 +1,9 @@
+{
+  "obsidian_vault_path": "/home/jon/obsidian-vault",
+  "daily_note_format": "Daily Notes/{year}/{month:02d}-{month_name}/{year}-{month:02d}-{day:02d}",
+  "meeting_notes_path": "Meeting Notes",
+  "projects": {
+    "personal_computer": "/home/jon/projects",
+    "work_computer": "/home/jon/work-projects"
+  }
+}
