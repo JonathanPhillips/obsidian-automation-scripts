@@ -6,10 +6,12 @@ Cross-platform automation system for tracking development accomplishments and up
 
 ### New Machine Setup
 ```bash
-git clone https://github.com/yourusername/obsidian-automation-scripts.git ~/projects
+git clone https://github.com/JonathanPhillips/obsidian-automation-scripts.git ~/projects
 cd ~/projects
 python3 obsidian-automation-scripts/setup-machine.py
 ```
+
+**🔒 Security Note**: The setup script will prompt for your personal paths and create a local `config.json` file. Your personal information is never committed to the repository.
 
 ### Daily Usage
 ```bash

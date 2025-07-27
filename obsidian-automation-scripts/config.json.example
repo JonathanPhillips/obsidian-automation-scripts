@@ -1,9 +1,15 @@
 {
-  "obsidian_vault_path": "/home/jon/obsidian-vault",
+  "obsidian_vault_path": "/path/to/your/vault",
   "daily_note_format": "Daily Notes/{year}/{month:02d}-{month_name}/{year}-{month:02d}-{day:02d}",
   "meeting_notes_path": "Meeting Notes",
+  "environment": "auto-detected",
   "projects": {
-    "personal_computer": "/home/jon/projects",
-    "work_computer": "/home/jon/work-projects"
+    "current_machine": "/path/to/your/projects"
+  },
+  "vault_paths": {
+    "wsl": "/mnt/c/Users/USERNAME/Documents/Vault 76",
+    "macos": "/Users/USERNAME/Documents/Vault 76", 
+    "windows": "C:\\Users\\USERNAME\\Documents\\Vault 76",
+    "linux": "/home/USERNAME/Documents/Obsidian Vault"
   }
 }

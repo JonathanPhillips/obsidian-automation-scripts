@@ -1,7 +1,11 @@
 # Obsidian automation gitignore
 
-# Machine-specific config (optional - you might want to version this)
-# obsidian-automation-scripts/config.json
+# Machine-specific config with personal paths
+obsidian-automation-scripts/config.json
+
+# Environment files with personal information
+.env
+obsidian-automation-scripts/.env
 
 # Temporary files
 obsidian-automation-scripts/temp_accomplishments.json
