@@ -8,6 +8,7 @@ import os
 import sys
 import platform
 import json
+import datetime
 from pathlib import Path
 
 def detect_environment():
@@ -197,7 +198,7 @@ This is the main orchestrator CLAUDE.md that manages:
 
 *Orchestrator-level accomplishments and automation improvements*
 
-- {import datetime; datetime.date.today().strftime('%Y-%m-%d')}: Set up Obsidian automation on {env_type} environment
+- {datetime.date.today().strftime('%Y-%m-%d')}: Set up Obsidian automation on {env_type} environment
 
 ## Environment Configuration
 
